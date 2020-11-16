@@ -1,0 +1,25 @@
+body {
+    background-image: url("finland.png");
+    background-repeat: none;
+}
+
+h1 {
+    font-size:100px;
+    font-family: Comic Sans MS;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: Comic Sans MS;
+    font-size: 100px;
+    padding: 20px;
+}
