@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>OMENA</h1>
     <img src="omena.png">
@@ -16,7 +18,13 @@
         <li>Theo</li>
     </ul>
     <p></p>
-    <a href="https://github.com/TheodorAifadis/omena">Hej</a> 
-    <Button href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">välkomen</Button>
+    <a href="https://github.com/TheodorAifadis/omena">Hej</a>
+    <button id="welcome_btn">välkomen</button>
+    <script defer>
+        document.getElementById("welcome_btn").onclick = function () {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        };
+    </script>
 </body>
+
 </html>
